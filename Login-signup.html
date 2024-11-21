@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(175, 183, 187)    ;
+    }
+    .container{
+        justify-content: space-evenly;
+        display: flex;
+        padding: 190px;
+
+    }
+    .card1{
+        padding: 10px;
+        width: 400px;
+        border: none;
+        background-color: rgb(251, 243, 243);
+        border-radius: 15px;
+        
+    }
+    .card2{
+        padding: 10px;
+        width: 400px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .card1 h1{
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .card2 h1{
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .ls button{
+        border: none;
+        
+        width: 197px;
+        
+        
+        height: 50px;
+        background-color: rgb(241, 238, 238);
+
+    }
+    .card1 form input{
+                width: 90%;
+                margin-left: 5px;
+                margin-top: 30px;
+                padding: 15px;
+                border-radius: 10px;
+
+    }
+    .card1 form input[type="button"]{
+        width: 98%;
+    }
+    .card1 p{
+        text-align: center;
+        padding: 20px;
+    }
+    .card1 form a{
+        margin-left: 9px;
+    }
+   
+    
+    .card2 form input{
+              width: 90%;
+                margin-left: 5px;
+                margin-top: 20px;
+                padding: 15px;
+                border-radius: 10px;
+
+    }
+    .card2 form input[type="button"]{
+        width: 98%;
+    }
+    .card2 p{
+        text-align: center;
+        padding: 20px;
+    }
+    .card2 form a{
+        margin-left: 9px;
+    }
+    .login{
+        background-color: rgb(16, 22, 24);
+    }
+    
+</style>
+<body>
+    <div class="container">
+            <div class="card1">
+            <h1>Login Form</h1>
+            <div class="ls" style="border: 1px solid blueviolet; border-radius: 10px;">
+                <button style="background-color: darkblue; color: rgb(244, 29, 29); border-radius: 10px;">Login</button>
+                <button>Signup</button>
+            </div>
+                <form action="" method="get">
+                    <input name="email" type="email" placeholder="Email Address"><br>
+                    <input name="password" type="password" placeholder="Password"><br>
+                    <a href="forgot_password.html">Forgot password?</a><br>
+                    <input type="button" value="Login">
+                </form>
+                <p>Not a member ?<a href="sign_up.html"> Signup Now</a></p>
+            </div>
+
+            <div class="card2">
+                <h1>Signup Form</h1>
+                <div class="ls" style="border: 1px solid blueviolet; border-radius: 10px";>
+                    <button>Login</button>
+                    <button style="background-color:darkblue; color:rgb(238, 31, 31); border-radius: 10px;">Signup</button>
+                </div>
+                    <form action="" method="get">
+                        <input name="email" type="email" placeholder="Email Address"><br>
+                        <input name="password" type="password" placeholder="Password"><br>
+                        <a href="forgot_password.html">Forgot password?</a><br>
+                        <input type="button" value="SignUp ">
+                    </form>
+                    <p><a href="sign_up.html"></a></p>
+                </div>
+   
+            </div>
+</body>
+</html>
